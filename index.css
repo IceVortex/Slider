@@ -1,17 +1,13 @@
-body {
-    min-width: 1100px;
-    width: auto !important;
-    width:1000px;
+.wrapper {
+    margin: 10% auto;
+    width: 960px;
 }
 
 .container {
-    margin-top: 150px;
-    margin-right: 100px;
     position: relative;
 }
 
 .slideshow1 {
-    overflow: hidden;
     white-space:nowrap;
     direction: rtl;
     width: 55%;
@@ -19,14 +15,12 @@ body {
 }
 
 .slideshow2 {
-    overflow: hidden;
     white-space:nowrap;
     direction: rtl;
     width: 55%;
 }
 
 .image1, .image2 {
-    display:inline-block;
     height: 200px;
     margin-bottom: 6px;
     margin-right: 6px;
@@ -35,7 +29,7 @@ body {
 
 .textFrame {
     position: absolute;
-    width: 25%;
+    width: 30%;
     left: 70%;
     top: -40px;
 }
@@ -64,13 +58,15 @@ body {
     border: 2px solid rgb(200, 200, 200);
     border-radius: 7px;
     padding: 35px;
-    left: 57.9%;
+    left: 60%;
     bottom: 135px;
+    transition: 0.3s;
 }
 
 #prev:hover {
     background-image: url("/assets/arrow-blue-left.png");
     border-color: #154A82;
+    transition: 0.3s;
 }
 
 #next {
@@ -84,11 +80,13 @@ body {
     border: 2px solid rgb(200, 200, 200);
     border-radius: 7px;
     padding: 35px;
-    left: 57.9%;
+    left: 60%;
     bottom: 55px;
+    transition: 0.3s;
 }
 
 #next:hover {
     background-image: url("/assets/arrow-blue-right.png");
     border-color: #154A82;
+    transition: 0.3s;
 }
