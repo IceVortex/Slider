@@ -1,0 +1,36 @@
+img.image {
+    height: 170px;
+    display:inline-block;
+}
+
+img.arrow {
+    height: 30px
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.slideshow {
+    width: 70%;
+    height: 340px;
+    overflow: hidden;
+}
+
+.textFrame {
+    width: 25%;
+    position: absolute;
+    left: 70%;
+    top: 0;
+    padding-left: 20px;
+}
+
+.textTitle {
+    color: #0174DF;
+    font-size: 20px;
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
